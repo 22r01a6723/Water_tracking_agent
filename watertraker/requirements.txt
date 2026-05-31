@@ -1,0 +1,13 @@
+langchain==0.1.12
+openai==1.14.1
+llama-index
+sqlite-utils==3.35
+#backend
+fastapi==0.109.2
+uvicorn==0.27.0.post1
+loguru==0.7.2 #logging & debugging
+APScheduler==3.10.4 #task schedular
+typer==0.9.0 #cli interaction
+streamlit==1.31.1
+sqlalchemy==2.0.27 #database
+python-dotenv==1.0.1
