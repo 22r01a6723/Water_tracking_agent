@@ -1,10 +1,5 @@
-# Water_tracking_agent
-AI-powered Water Tracker using FastAPI, Uvicorn, SQLite, and Streamlit with Gemini/OpenAI integration. It logs water intake, stores history, and generates AI-based hydration insights. The dashboard visualizes daily and weekly trends and supports data-driven health tracking.
-
 💧 Water Tracker (AI Powered)
-
-An AI-driven water intake tracking system built using FastAPI, Streamlit, SQLite, and Gemini/OpenAI APIs.
-It logs user hydration data, stores history, and generates intelligent insights with visual trend analysis.
+AI-powered Water Tracker using FastAPI, Uvicorn, SQLite, and Streamlit with Gemini/OpenAI integration. It logs water intake, stores history, and generates AI-based hydration insights. The dashboard visualizes daily and weekly trends and supports data-driven health tracking.
 
 🚀 Features
 📌 Log daily water intake via API/UI
@@ -21,6 +16,7 @@ Streamlit (Dashboard UI)
 SQLite (Database)
 Gemini / OpenAI API (AI Insights)
 Python (Core logic)
+
 📁 Project Structure
 WATERTRACKER/
 │
@@ -51,8 +47,8 @@ OPENAI_API_KEY=your_key_here
 uvicorn src.api:app --reload
 ▶ Start Streamlit dashboard
 streamlit run src/dashboard.py
-🔄 Workflow
 
+🔄 Workflow
 User → FastAPI → SQLite → AI Agent → Streamlit Dashboard → Insights & Trends
 
 🧠 AI Features
